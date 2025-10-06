@@ -1,14 +1,27 @@
+# UI / Dashboard
 streamlit==1.37.1
-pandas==2.2.2
-numpy==1.26.4
 plotly==5.23.0
+
+# Données et calculs
+pandas==2.1.4        # ✅ version avec wheel pour Python 3.11
+numpy==1.26.4
+scipy==1.11.4
+
+# Trading & Analyse technique
 ccxt==4.3.98
 ta==0.11.0
-pydantic==2.8.2
-cryptography==43.0.1
+
+# ORM / DB
 SQLAlchemy==2.0.32
+
+# Sécurité & Config
+cryptography==42.0.8
 python-dotenv==1.0.1
+
+# Authentification
 streamlit-authenticator==0.4.1
 streamlit-oauth==0.1.14
+
+# API & Validation
+pydantic==2.8.2
 requests==2.32.3
-scipy==1.13.1
